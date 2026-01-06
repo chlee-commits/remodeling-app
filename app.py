@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -163,3 +162,4 @@ if uploaded_file:
         st.info("**💡 계산 원리 설명**\n- **리모델링 전/후**: 입력값 대비 DB 사례 단지의 수치적 차이 비율입니다.\n- **증감**: 리모델링 변화량(증가분)에 대한 차이 비율입니다.\n- **유사도 점수**: 모든 차이를 가중 합산하여 100% 환산한 지표입니다.")
 else:
     st.warning("👈 왼쪽 상단에서 엑셀 파일을 업로드해 주세요.")
+
